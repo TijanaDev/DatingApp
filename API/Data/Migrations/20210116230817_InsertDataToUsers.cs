@@ -6,7 +6,7 @@ namespace API.Data.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql(
+         /*   migrationBuilder.Sql(
                 "INSERT INTO Users VALUES('Tijana')"
             );
                  migrationBuilder.Sql(
@@ -17,14 +17,14 @@ namespace API.Data.Migrations
              migrationBuilder.Sql(
                 "INSERT INTO Users VALUES('Vanja')"
                 
-            );
+            );*/
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql(
+          /*  migrationBuilder.Sql(
                 "DELETE FROM Users"
-            );
+            );*/
         }
     }
 }
